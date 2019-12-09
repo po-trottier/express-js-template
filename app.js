@@ -5,7 +5,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const db = require('./database/mysql');
-const port = 5000;
+
+const port = process.env.PORT || 3000;
 
 // Instantiate the Express App
 const app = express();
