@@ -1,5 +1,7 @@
-# GitHub to Netlify Example
+# Express.js on Netlify Example
 
-A simple, static website that can be deployed to Netlify.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cd0842a9-04d3-4b32-a765-38820e064585/deploy-status)](https://app.netlify.com/sites/student-api/deploys)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/neverendingqs-sandbox/netlify-express)
+**Base URL for the API:** https://api.p-o.design/.netlify/functions/server
+
+* Test URL: https://api.p-o.design/.netlify/functions/server/test
