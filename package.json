@@ -2,17 +2,16 @@
   "name": "student-api",
   "version": "1.0.0",
   "description": "An Express.js Netlify Serverless API.",
-  "main": "functions/server.js",
+  "main": "app.js",
   "scripts": {
-    "build": "netlify-lambda build express",
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/po-trottier/student-api.git"
   },
   "keywords": [
-    "netlify",
     "express.js"
   ],
   "author": "Pierre-Olivier Trottier",
@@ -29,8 +28,6 @@
     "sequelize": "^5.21.2"
   },
   "devDependencies": {
-    "netlify-lambda": "^1.6.3",
-    "nodemon": "^1.19.2",
-    "serverless-http": "^2.3.0"
+    "nodemon": "^1.19.2"
   }
 }
