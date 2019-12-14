@@ -2,9 +2,12 @@
 const sequelize = require('sequelize');
 const mysql2 = require('mysql2');
 
+// Import the environment variables
+const config = require('../config');
+
 // Setup DB
-module.exports = new sequelize('potrot_studentassitant', 'potrot_usr', 'YfG$U7%2uSr1', {
-  host: 'johnny.heliohost.org',
+module.exports = new sequelize(config.databaseName, config.databaseUser, config.databasePass, {
+  host: config.databaseHost,
   dialect: 'mysql',
   dialectModule: mysql2,
   pool: {

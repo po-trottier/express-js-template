@@ -1,12 +1,15 @@
 'use strict';
 
-// Import Depdendencies
+// Import Dependencies
 const express = require('express');
 const bodyParser = require('body-parser');
-const path = require('path');
+
+const config = require('./config');
 const db = require('./database/mysql');
 
-const port = process.env.PORT || 3000;
+
+// Get the Port Dynamically
+const port = config.port || 3000;
 
 // Instantiate the Express App
 const app = express();

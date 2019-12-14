@@ -1,7 +1,7 @@
-var express = require('express');
-var model = require("./model");
+const express = require('express');
+const model = require("./model");
 
-var router = express.Router();
+const router = express.Router();
 
 router.get('/', (req,res) => {
   model.testApi().then((response) => {

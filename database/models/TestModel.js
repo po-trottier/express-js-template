@@ -1,16 +1,13 @@
 const sequelize = require('sequelize');
 const db = require('../mysql.js');
 
-const User = db.define('user', {
+const TestModel = db.define('test', {
   name: {
     type: sequelize.STRING
   },
   email: {
     type: sequelize.STRING
   },
-  picture: {
-    type: sequelize.STRING
-  },
 });
 
-module.exports = User;
+module.exports = TestModel;

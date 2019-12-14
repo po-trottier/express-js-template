@@ -1,7 +1,7 @@
 {
-  "name": "student-api",
+  "name": "express-js-template",
   "version": "1.0.0",
-  "description": "An Express.js Netlify Serverless API.",
+  "description": "An Express.js API Template.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/po-trottier/student-api.git"
+    "url": "git+https://github.com/po-trottier/express-js-template.git"
   },
   "keywords": [
     "express.js"
@@ -17,11 +17,12 @@
   "author": "Pierre-Olivier Trottier",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/po-trottier/student-api/issues"
+    "url": "https://github.com/po-trottier/express-js-template/issues"
   },
-  "homepage": "https://github.com/po-trottier/student-api#readme",
+  "homepage": "https://github.com/po-trottier/express-js-template#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mysql2": "^2.0.2",
     "pg-hstore": "^2.3.3",
