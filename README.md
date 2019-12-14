@@ -46,4 +46,14 @@ This is a simple MVC-Based Express.js API Server that connects to a MySQL databa
 1) To access the server, go in your browser and visit:
     * `localhost:3000`
 1) You should see the contents of `index.html` displayed
-1) If you navigate to * `localhost:3000/test` you should see the test entries added earlier
+1) If you navigate to `localhost:3000/test` you should see the test entries added earlier
+
+### Add More Routes
+
+1) To add Create a subdirectory in the `routes` folder
+1) Add a `controller.js` file and a `model.js` file
+    * The `controller.js` file will control the available sub-routes
+    * The `model.js` file will contain all the API logic
+1) The new route must be added to the main `controller.js` file located in the `routes` directory
+
+***To see an example, refer to the `test` route.***
